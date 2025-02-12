@@ -1,0 +1,63 @@
+# Direktori sistem
+.DS_Store
+Thumbs.db
+
+# File log dan cache
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/views/
+
+# Dependensi Composer
+/vendor/
+composer.lock
+
+# Dependensi Node.js (jika menggunakan frontend dengan npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment file (simpan konfigurasi lokal di .env)
+.env
+.env.local
+.env.production
+.env.testing
+.env.*
+
+# File build
+/public/build/
+/public/hot
+/public/storage/
+
+# Database lokal
+/database/database.sqlite
+/database/*.sqlite-journal
+
+# IDE dan editor konfigurasi
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Direktori upload (jika ada penyimpanan lokal)
+public/uploads/
+
+# File cache Laravel
+bootstrap/cache/
+
+# File sementara
+*.log
+*.cache
+*.bak
+*.swp
+*.tmp
+
+# Cover Image atau Preview
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+
+# SFTP / Deployment
+*.ftpconfig
+*.env.example
